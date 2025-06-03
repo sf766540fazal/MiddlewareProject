@@ -12,3 +12,5 @@ from django.http import HttpResponse
 def home_page_view2(request):
 	print(10/0)
 	return HttpResponse('<h1>Hello This is from home page view2</h1><hr />')
+def pycharmview(req):
+	return HttpResponse("<h1>Hello from Pycharm</h1><hr />")
